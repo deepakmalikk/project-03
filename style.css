@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #2B2922;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+
+.logo {
+    margin-top: 20px;
+    height: 40px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    gap: 50px;
+    font-weight: bold;
+    font-style: solid;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 300px;
+    color: #69675F;
+}
+
+.list-item:hover {
+    color: #ffffff;
+}
+
+.button-small {
+    margin-right: 100px;
+    margin-top: 25px;
+    font-size: 15px;
+    font-style: solid;
+    font-weight: 600;
+    color: #7C7030;
+    border: 1px solid #7C7030;
+    border-radius: 10px;
+    padding: 10px 23px;
+
+    background-color: #2B2922;
+}
+
+.main {
+    width: 100%;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.main-heading {
+    width: 50%;
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 70px;
+    margin-left: 20px;
+    text-align: center;
+    font-family: 'Dela Gothic One';
+    font-weight: bold;
+}
+
+.right-text {
+    float: right;
+    width: 30%;
+    color: #9C9B97;
+    font-size: 24px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    font-style: none;
+    font-weight: 400;
+
+
+}
+
+.image {
+    width: 100%;
+    height: 600px;
+
+}
+
+.footer {
+    height: 100px;
+
+}
